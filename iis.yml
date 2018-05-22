@@ -1,7 +1,6 @@
 ---
--hosts: AnsWebPOC1
-
-tasks:
+- hosts: AnsWebPOC1
+  tasks:
    - name: Test connection
      win_ping:
      # Restart snmp
