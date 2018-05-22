@@ -21,9 +21,8 @@
           win_iis_webapppool:
           name: "DefaultAppPool"
           state: restarted
-          
- handlers:
- 
+         
+  handlers:
   - name: w3svc reset
     win_service:
       name: w3svc
