@@ -17,8 +17,8 @@
             include_sub_features: yes
             include_management_tools: yes
             
-       -name: Restarting the web app pool
-        win_iis_webapppool:
+        - name: Restarting the web app pool
+          win_iis_webapppool:
           name: "DefaultAppPool"
           state: restarted
           
