@@ -23,5 +23,5 @@
   handlers:
   - name: w3svc reset
     win_service:
-      name: w3svc
-      state: restarted
+    name: w3svc
+    state: restarted
