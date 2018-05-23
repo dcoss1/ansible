@@ -1,9 +1,8 @@
 ---
 - hosts: AnsWebPOC1
   tasks:
-  - name: Test connection
-    win_ping:
-    # Restart snmp
+    - name: Test connection
+      win_ping:
     - name: Ensuring SNMP is started
       win_service:
     - name: snmptrap
