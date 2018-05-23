@@ -1,6 +1,5 @@
 ---
-- hosts: AnsWebPOC1
-- ansible_connection: winrm
+- hosts: windows
   tasks:
     - name: Test connection
       win_ping:
