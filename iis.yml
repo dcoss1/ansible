@@ -1,5 +1,5 @@
 ---
-- hosts: AnsWebPOC1
+- hosts: AnsWebPOC2
   tasks:
     - name: Test connection
       win_ping:
